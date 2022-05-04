@@ -1,7 +1,7 @@
 import fs from 'fs';
 import matter from 'gray-matter';
 import md from 'markdown-it';
-import Layout from '../components/layout';
+import Layout from '../../components/layout';
 
 
 export async function getStaticPaths() {
